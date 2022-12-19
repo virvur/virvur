@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  background-color: rgba(251, 246, 255, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgba(42, 27, 86, 1);
+  font-weight: 500;
+}
+
+h1 {
+  color: rgba(33, 63, 223, 1);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  max-width: 30vw;
+}
+
+h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.htwo {
+  color: rgba(33, 63, 223, 1);
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 0px 160px;
+  background-color: rgba(251, 246, 255, 1);
+  z-index: 3;
+  min-width: 90vw;
+}
+
+.navbar {
+  background-color: rgba(251, 246, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 2px solid #ffa943;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+.logo a {
+  color: rgba(122, 122, 194, 1);
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 0px 16px;
+  margin: 0px 4px; /*перше= верх і низ, друге= право і ліво*/
+}
+
+.menu {
+  list-style: none;
+  padding: 10px 0px;
+  margin: 0px 4px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.menu a {
+  color: rgba(122, 122, 194, 1);
+  text-decoration: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px 16px;
+  margin: 0px 4px; /*перше= верх і низ, друге= право і ліво*/
+  border: 0px transparent;
+  border-radius: 16px;
+}
+
+.logo a.activ:hover {
+  color: rgba(33, 63, 223, 1);
+}
+
+.menu a.activ:hover {
+  color: rgba(33, 63, 223, 1);
+}
+
+.sectionone {
+  min-height: 100vh;
+  min-width: 90vw;
+
+  padding: 0px 180px;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  align-self: center;
+}
+
+.first {
+  line-height: 17px;
+  padding: 0px 30px;
+}
+
+.sectionone img {
+  float: right;
+  width: 45%;
+}
+
+.sectiontwo {
+  min-height: 100vh;
+  min-width: 90vw;
+  padding: 0px 180px;
+  background-color: rgba(122, 122, 194, 1);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  align-self: center;
+}
+
+.second {
+  padding: 0px 0px 0px 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: white;
+  max-width: 40vw;
+}
+
+.sectionthree {
+  min-height: 100vh;
+  min-width: 90vw;
+  padding: 0px 180px;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdone {
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.third {
+  margin-left: 80px;
+}
+
+.thirdtwo {
+  background-color: transparent;
+  max-width: 70vw;
+  /* padding: 0px 180px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.thirdtwo img {
+  width: 20%;
+  margin-left: 60px;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  transition: ease-in-out;
+}
+
+.image-2 {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: -17px;
+  bottom: 0;
+  left: -14px;
+  right: 0;
+  width: 106%;
+  height: auto;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.container:hover .image {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.ulone {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+.sectionfour {
+  min-height: 100vh;
+  min-width: 90vw;
+  padding: 100px 200px;
+  background-color: rgba(122, 122, 194, 1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doggy {
+  /* padding: 20px 0px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.d1 {
+  width: 30%;
+}
