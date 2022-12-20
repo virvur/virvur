@@ -213,14 +213,13 @@
   .contactlink {
     justify-content: flex-start;
   }
-  
+
   .contlink {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
     padding: 20px 0px 0px 100px;
-    
   }
 
   .contlink a {
