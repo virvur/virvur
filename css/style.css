@@ -636,12 +636,12 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-end;
   align-self: center;
 }
 
 .gifs > .gallery > .gallery-item {
-  flex-basis: 35%;
+  flex-basis: 49%;
 }
 
 .gifs img:first-child {
@@ -698,7 +698,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   align-self: center;
   width: 100%;
 }
@@ -794,7 +794,7 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   align-self: center;
 }
 

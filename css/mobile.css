@@ -206,12 +206,21 @@
   }
 
   .contacts {
+    width: 100%;
     padding: 15px 30px 15px 30px;
   }
 
+  .contactlink {
+    justify-content: flex-start;
+  }
+  
   .contlink {
-    flex-direction: row;
-    padding: 20px 0px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    padding: 20px 0px 0px 100px;
+    
   }
 
   .contlink a {
@@ -319,7 +328,7 @@
     flex-direction: column;
     text-align: center;
     border-top: 1px solid var(--green);
-    margin: 0px 100px;
+    margin: 0rem 4rem;
   }
 
   #mobile-menu-content ul li:first-of-type {
@@ -327,7 +336,7 @@
   }
 
   #mobile-menu-content ul li a {
-    padding: 3rem;
+    padding: 3rem 2rem 3rem 2rem;
     text-decoration: none;
     color: var(--white);
     display: block;
