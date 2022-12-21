@@ -245,6 +245,22 @@
     align-self: flex-end;
   }
 
+  .tiles {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .tiles .gallery-item:first-child {
+    align-self: flex-start;
+    width: 80%;
+  }
+
+  .tiles .gallery-item:last-child {
+    align-self: flex-end;
+    width: 85%;
+  }
+
   /* HAMBURGER  */
 
   #mobile-menu {
@@ -298,6 +314,7 @@
     width: 100%;
     height: calc(100vh - var(--header-height));
     background: var(--black);
+    opacity: 80%;
 
     position: fixed;
     top: -100vh;
